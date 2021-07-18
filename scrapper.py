@@ -55,7 +55,6 @@ def to_float(string):
     else:
         return float(string)
 user_scores = [to_float(elem) for elem in user_scores]
-print(len([elem * 10 for elem in user_scores]))
 
 
 df = pd.DataFrame(
